@@ -11,7 +11,6 @@ def count_words(name):
     for page in fileReader.pages:
         page_text = page.extractText()
         words_on_page = re.findall('\w+', page_text)
-        # print(words_on_page)
         words += len(words_on_page)
 
     return words
