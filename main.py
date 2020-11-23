@@ -6,8 +6,8 @@ webScrapper.py - downloads all Nietzsche works from web to folder as pdf file's
 '''
 
 from pathlib import Path
-from count_words import count_words
-from webScrapper import get_books
+from zaj_01_20_11.count_words import count_words
+from zaj_01_20_11.webScrapper import get_books
 
 
 get_books()
