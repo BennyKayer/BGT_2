@@ -1,5 +1,5 @@
 # BGT_2
 
-## Wymagane
+## Spark with jupyter notebook
 
-`python -m nltk.downloader averaged_perceptron_tagger`
+docker run -p 8888:8888 jupyter/pyspark-notebook
