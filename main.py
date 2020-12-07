@@ -15,7 +15,7 @@ from zaj_01_20_11.count_words import count_words
 from zaj_01_20_11.webScrapper import get_books
 
 # Zaj 2
-from zaj_02_23_11.most_popular_words import most_popular_words, most_popular_nouns
+from zaj_02_23_11.most_popular_words import most_popular_nouns, most_popular_words
 
 zaj_1 = False
 zaj_2 = True
