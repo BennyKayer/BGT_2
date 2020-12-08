@@ -2,17 +2,14 @@ import re
 from collections import Counter
 
 import nltk
-import PyPDF2
 
 
 def words_frequency(name):
-    fileReader = PyPDF2.PdfFileReader(name)
-
     words = {}
-    for page in fileReader.pages:
-        page_text = page.extractText()
-        words_on_page = re.findall(r"\b[^\d\W]+\b", page_text)
-        for word in words_on_page:
+    with open(name) as reader:
+        text = reader.read()
+        words_in_text = re.findall(r"\b[^\d\W]+\b", text)
+        for word in words_in_text:
             if word in words:
                 words[word] += 1
             else:
