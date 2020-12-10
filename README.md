@@ -7,6 +7,7 @@ docker run -p 8888:8888 jupyter/pyspark-notebook
 
 ## Compare
 ### Local
+## Freud
 ```
 6.228185047999432
 Freud most popular words [('the', 131812), ('of', 94372), ('to', 60384), ('a', 46599), ('in', 46310), ('and', 44579), ('that', 33386), ('is', 30321), ('which', 22634), ('it', 22311)]
