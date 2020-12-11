@@ -1,0 +1,33 @@
+<bound method RDD.name of freud/Sigmund Freud – The Complete Works.pdf.txt MapPartitionsRDD[1] at textFile at NativeMethodAccessorImpl.java:0>
+top letters [('e', 1204065), ('t', 931463), ('i', 759718)]
+total letters 9572627
+e : 12.578208677722428%
+t : 9.730484641258872%
+i : 7.936358535645439%
+english
+tiny 81428
+small 1152818
+medium 693893
+big 140767
+total word 2068906
+most common [('the', 142371), ('of', 94924), ('to', 60988), ('in', 50950), ('a', 48808), ('and', 46208), ('that', 33805), ('is', 30431), ('it', 27788), ('which', 22649)]
+top nouns [('dream', 6115), ('analysis', 3584), ('time', 3456)]
+time spend 59.91513084000326
+------------------------------------------------------------------------------------------------------------------------
+<bound method RDD.name of nitsche/The complete works of Friedrich Nietzsche VOL XVI.pdf.txt MapPartitionsRDD[3] at textFile at NativeMethodAccessorImpl.java:0>
+top letters [('e', 2900311), ('t', 2228244), ('i', 1824807)]
+total letters 23390563
+e : 12.399492051559426%
+t : 9.526252104320875%
+i : 7.801466771022142%
+english
+tiny 202183
+small 2930145
+medium 1748545
+big 286982
+total word 5167855
+most common [('the', 333202), ('of', 236711), ('and', 174673), ('to', 145862), ('a', 103482), ('in', 98587), ('is', 84142), ('that', 66534), ('it', 57477), ('as', 53017)]
+top nouns [('man', 17055), ('life', 10689), ('power', 10100)]
+time spend 128.5179215230164
+------------------------------------------------------------------------------------------------------------------------
+total time spend 188.43381756200688
