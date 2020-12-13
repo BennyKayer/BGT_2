@@ -1,0 +1,4 @@
+docker-compose up  
+to put files in hadoop you need to enter hadoop container and run hadoop commands  
+example: hadoop fs -copyFromLocal /bgt/covid_19_india.csv /  
+then you can read them in pyspark notebook  
